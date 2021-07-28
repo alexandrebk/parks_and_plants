@@ -4,7 +4,7 @@ Let’s code a Rails app with gardens and plants!
 
 ### User Stories
 
-- [ ] As a user I can see one garden's plants
+- [x] As a user I can see one garden's plants
 - [ ] As a user I can add a plant in a garden
 - [ ] As a user I can delete a plant
 
