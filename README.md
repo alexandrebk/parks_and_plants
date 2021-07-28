@@ -1,24 +1,19 @@
-# README
+# Parks and plants
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Let’s code a Rails app with gardens and plants!
 
-Things you may want to cover:
+### User Stories
 
-* Ruby version
+- [ ] As a user I can see one garden's plants
+- [ ] As a user I can add a plant in a garden
+- [ ] As a user I can delete a plant
 
-* System dependencies
+### Frontend setup
 
-* Configuration
+Follow our front-end setup [guidelines](https://github.com/lewagon/rails-stylesheets/blob/master/README.md) but don’t bother with the Bootstrap JS part, we won’t use any JS here.
 
-* Database creation
+### Model
 
-* Database initialization
+We have two models here `Garden` with `name` and `banner_url`, and `Plant` with `name` and `image_url`. Let's draw the DB.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+On `Garden` and `Plant`, all fields are required.
