@@ -7,5 +7,6 @@ class GardensController < ApplicationController
     @garden = Garden.find(params[:id])
     # @plants = Plant.where(garden_id: params[:id])
     @plants = @garden.plants
+    @plant  = Plant.new
   end
 end
